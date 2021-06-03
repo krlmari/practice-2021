@@ -39,7 +39,7 @@ public class pagesClass {
 
        BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("C:/Users/Marina/Desktop/Приложение/src/zam.jpg"));
+            image = ImageIO.read(new File("C:/Users/Marina/Desktop/Приложение/src/aut.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
