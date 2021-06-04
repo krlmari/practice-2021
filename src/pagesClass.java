@@ -39,7 +39,7 @@ public class pagesClass {
 
        BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("C:/Users/Marina/Desktop/Приложение/src/aut.jpg"));
+            image = ImageIO.read(new File("src/aut.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -116,7 +116,7 @@ public class pagesClass {
 
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("C:/Users/Marina/Desktop/Приложение/src/reg.jpg"));
+            image = ImageIO.read(new File("src/reg.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -182,7 +182,7 @@ public class pagesClass {
 
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("C:/Users/Marina/Desktop/Приложение/src/user.jpg"));
+            image = ImageIO.read(new File("src/user.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -229,7 +229,7 @@ public class pagesClass {
 
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("C:/Users/Marina/Desktop/Приложение/src/admin.jpg"));
+            image = ImageIO.read(new File("src/admin.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
